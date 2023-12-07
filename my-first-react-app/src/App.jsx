@@ -8,6 +8,9 @@ import Button from './components/Button';
 import ColorButtons from './components/ColorButtons';
 import Person from './components/Person';
 import { useState } from "react";
+import Counter from './components/Counter';
+import FunctionalInput from './components/FunctionalInput';
+import ClassInput from './components/ClassInput';
 
 const COLORS = ["pink", "green", "blue", "yellow", "purple"];
 
@@ -25,6 +28,9 @@ function App() {
   return (
     <>
         <h1>Hello, World!</h1>
+        <ClassInput name='Todo'/>
+        <FunctionalInput name='Todo Tasks:'/>
+        <Counter/>
         <Greeting/>
         <FavFood/>
         <Animals/>
