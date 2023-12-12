@@ -11,6 +11,7 @@ import { useState } from "react";
 import Counter from './components/Counter';
 import FunctionalInput from './components/FunctionalInput';
 import ClassInput from './components/ClassInput';
+import GroupForm from './components/test/GroupForm';
 
 const COLORS = ["pink", "green", "blue", "yellow", "purple"];
 
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
         <h1>Hello, World!</h1>
+        <GroupForm/>
         <ClassInput name='Todo'/>
         <FunctionalInput name='Todo Tasks:'/>
         <Counter/>
