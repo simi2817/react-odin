@@ -12,6 +12,8 @@ import Counter from './components/Counter';
 import FunctionalInput from './components/FunctionalInput';
 import ClassInput from './components/ClassInput';
 import GroupForm from './components/test/GroupForm';
+import ButtonComponent from './components/extras/ButtonComponent';
+import IncButton from './components/extras/IncButton';
 
 const COLORS = ["pink", "green", "blue", "yellow", "purple"];
 
@@ -29,6 +31,8 @@ function App() {
   return (
     <>
         <h1>Hello, World!</h1>
+        <IncButton />
+        <ButtonComponent />
         <GroupForm/>
         <ClassInput name='Todo'/>
         <FunctionalInput name='Todo Tasks:'/>
